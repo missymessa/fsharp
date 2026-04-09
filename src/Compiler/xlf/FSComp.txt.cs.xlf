@@ -8962,6 +8962,16 @@
           <target state="new">This expression is a function value. When used in an interpolated string it will be formatted using its 'ToString' method, which is likely not the intended behavior. Consider applying the function to its arguments.</target>
           <note />
         </trans-unit>
+        <trans-unit id="featureWarnOnLetInSequenceExpression" translate="yes" xml:space="preserve">
+          <source>Warn when 'let ... in' is used in a sequence expression and the body extends to subsequent lines</source>
+          <target state="new">Warn when 'let ... in' is used in a sequence expression and the body extends to subsequent lines</target>
+          <note />
+        </trans-unit>
+        <trans-unit id="tcLetExpressionWithInHasMultiLineBody" translate="yes" xml:space="preserve">
+          <source>The use of 'in' in 'let ... in' on a single line followed by additional code on subsequent lines causes all subsequent lines to be part of the 'let' body. This may lead to unexpected scoping. Either remove the 'in' keyword and rely on indentation, or add parentheses to clarify the intended scope.</source>
+          <target state="new">The use of 'in' in 'let ... in' on a single line followed by additional code on subsequent lines causes all subsequent lines to be part of the 'let' body. This may lead to unexpected scoping. Either remove the 'in' keyword and rely on indentation, or add parentheses to clarify the intended scope.</target>
+          <note />
+        </trans-unit>
     </body>
   </file>
 </xliff>
