@@ -8962,7 +8962,7 @@
           <target state="new">This expression is a function value. When used in an interpolated string it will be formatted using its 'ToString' method, which is likely not the intended behavior. Consider applying the function to its arguments.</target>
           <note />
         </trans-unit>
-        <trans-unit id="featureWarnOnLetInSequenceExpression" translate="yes" xml:space="preserve">
+        <trans-unit id="featureLetInBodyScoping" translate="yes" xml:space="preserve">
           <source>Scope 'let ... in' body to the same line in sequence expressions</source>
           <target state="new">Scope 'let ... in' body to the same line in sequence expressions</target>
           <note />
